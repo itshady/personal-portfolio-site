@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import ProjectCard from "./ProjectCard";
 import axios from "axios";
 import { Card, Col } from "react-bootstrap";
+import GitHubCalendar from "./GithubCalendar";
 
 const dummyProject = {
   name: null,
@@ -216,6 +217,7 @@ const Project = ({ heading, username, length, specfic }) => {
           </Col>
         </Row>
         <h3 className="display-6 pb-5 text-center">Github Projects</h3>
+        <Row className="justify-content-center pb-5"><GitHubCalendar username="itshady" /></Row>
         <Row>
           {projectsArray.length
             ? projectsArray.map((project, index) => (
