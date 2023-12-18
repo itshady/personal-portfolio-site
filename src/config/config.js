@@ -56,6 +56,7 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
+  calendar: true,
   heading: "Projects",
   gitHubUsername: "itshady",
   reposLength: 2,

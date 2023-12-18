@@ -19,7 +19,7 @@ const API = "https://api.github.com";
 // const gitHubQuery = "/repos?sort=updated&direction=desc";
 // const specficQuerry = "https://api.github.com/repos/hashirshoaeb/";
 
-const Project = ({ heading, username, length, specfic }) => {
+const Project = ({ heading, username, length, specfic, calendar }) => {
   const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
   const specficReposAPI = `${API}/repos/${username}`;
   const dummyProjectsArr = new Array(length + specfic.length).fill(
@@ -217,7 +217,11 @@ const Project = ({ heading, username, length, specfic }) => {
           </Col>
         </Row>
         <h3 className="display-6 pb-5 text-center">Github Projects</h3>
-        <Row className="justify-content-center pb-5"><GitHubCalendar username="itshady" /></Row>
+        {calendar && (
+          <Row className="justify-content-center pb-5">
+            <GitHubCalendar username="itshady" />
+          </Row>
+        )}
         <Row>
           {projectsArray.length
             ? projectsArray.map((project, index) => (
