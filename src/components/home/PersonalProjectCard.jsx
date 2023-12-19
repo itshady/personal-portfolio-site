@@ -17,7 +17,7 @@ const PersonalProjectCard = ({ data }) => {
               </ul>
           </Card.Text>
           <p className="lead text-center my-0">
-            <a href={data.link} target=" _blank" className="lead text-center btn btn-outline-dark btn mx-2">
+            <a href={data.repo} target=" _blank" className="lead text-center btn btn-outline-dark btn mx-2">
               <i className="fab fa-github" /> Repo
             </a>
             <a
