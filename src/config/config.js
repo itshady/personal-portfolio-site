@@ -63,6 +63,24 @@ const repos = {
   specificRepos: ["Island-Generator", "gameoflife", "WCSS-Peer-Eval", "intellectus2-0"],
 };
 
+// Personal Projects SECTION
+const projects = {
+  show: true,
+  heading: "Personal Projects",
+  data: [
+    {
+      title: 'Slacker, DeltaHacks IX Winner',
+      img: require('../assets/img/projects/slackerchore.png'),
+      link: "https://nova-attic-ec5.notion.site/Slacker-Chores-f815d8e00c324d629775a9e773c45f9f",
+      bulletpoints: [
+        "Created a web application in 24 hours using React and Firebase to randomly assign chores to roommates",
+        "Implemented Google authentication so users can login and invite their friends to a \"household\" via email",
+        "Won Best Productivity App in hackathon (1st out of 60 total submissions)",
+      ],
+    },
+  ]
+}
+
 // Leadership SECTION
 const leadership = {
   show: false,
@@ -202,4 +220,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, projects };

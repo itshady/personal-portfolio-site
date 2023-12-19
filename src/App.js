@@ -8,7 +8,8 @@ import {
   leadership,
   skills,
   getInTouch,
-  experiences
+  experiences,
+  projects
 } from "./config/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -56,6 +57,7 @@ const Home = React.forwardRef((props, ref) => {
           length={repos.reposLength}
           specfic={repos.specificRepos}
           calendar={repos.calendar}
+          projects={projects}
         />
       )}
       {leadership.show && (
