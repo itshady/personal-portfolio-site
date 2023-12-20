@@ -107,3 +107,6 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
     - Take a screenshot of your version and rename it "social-image.png" and place it there.  
     
    Next time if you make changes, repeat from step 8.
+  
+
+More on deployment [here](https://medium.com/swlh/how-to-build-and-deploy-a-react-website-with-custom-domain-in-10-minutes-17d953d2a715)
