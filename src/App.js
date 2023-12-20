@@ -9,7 +9,9 @@ import {
   skills,
   getInTouch,
   experiences,
-  projects
+  projects,
+  extracurriculars,
+  biomedicalprojects
 } from "./config/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -50,6 +52,13 @@ const Home = React.forwardRef((props, ref) => {
           />
         )
       }
+      {
+        extracurriculars.show && (
+          <Experience 
+            experiences={extracurriculars}
+          />
+        )
+      }
       {repos.show && (
         <Project
           heading={repos.heading}
@@ -58,6 +67,7 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
           calendar={repos.calendar}
           projects={projects}
+          biomedicalprojects={biomedicalprojects}
         />
       )}
       {leadership.show && (

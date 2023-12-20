@@ -59,8 +59,9 @@ const repos = {
   calendar: true,
   heading: "Projects",
   gitHubUsername: "itshady",
-  reposLength: 2,
-  specificRepos: ["Island-Generator", "gameoflife", "WCSS-Peer-Eval", "intellectus2-0"],
+  reposLength: 6,
+  specificRepos: [],
+  // specificRepos: ["Island-Generator", "gameoflife", "WCSS-Peer-Eval", "intellectus2-0"],
 };
 
 // Personal Projects SECTION
@@ -77,6 +78,79 @@ const projects = {
         "Created a web application in 24 hours using React and Firebase to randomly assign chores to roommates",
         "Implemented Google authentication so users can login and invite their friends to a \"household\" via email",
         "Won Best Productivity App in hackathon (1st out of 60 total submissions)",
+      ],
+    },
+    {
+      title: 'Conway\'s Game of Life, N Player Game?',
+      img: require('../assets/img/projects/conways.png'),
+      link: "https://itshady.github.io/gameoflife/",
+      repo: "https://github.com/itshady/gameoflife",
+      bulletpoints: [
+        "Built a complete implementation of Conway’s Game of Life with a variety of enhanced features",
+        "Chose a simple problem in order to concentrate on code quality, OOP, testing strategies, UI frameworks",
+        "Implemented the UI layer in vanilla JS and React to understand the purpose of modern frameworks",
+      ],
+    },
+    {
+      title: 'Island Mesh Generator',
+      img: require('../assets/img/projects/islandgenerator.png'),
+      link: "https://github.com/itshady/Island-Generator#video-explanation-of-the-final-product",
+      repo: "https://github.com/itshady/Island-Generator",
+      bulletpoints: [
+        "Generate and visualize 2D meshes, further enriched with island generation and interconnected cities",
+        "Focused on design decisions that conformed to SOLID principles",
+        "Implemented a pathfinder service that employs graph algorithms (Dijkstra’s and Bellman Ford) for optimal path calculation between cities",
+      ],
+    },
+    {
+      title: 'WCSS Peer Evaluator',
+      img: require('../assets/img/projects/wcsspeereval.png'),
+      link: "https://nova-attic-ec5.notion.site/WCSS-Peer-Evaluator-966d035f74694a8d8500d2bd6b8d71d8",
+      repo: "https://github.com/itshady/WCSS-Peer-Eval",
+      bulletpoints: [
+        "Used at West Carleton SS by over 1300 students in order to get valuable feedback from their peers",
+        "Developed a UI/UX friendly interface that shows teachers their associated students and projects",
+      ],
+    },
+    {
+      title: 'Intellectus',
+      img: require('../assets/img/projects/intellectus.png'),
+      link: "https://nova-attic-ec5.notion.site/Intellectus-ca-53c6573802d1497d96ecd621032adf1c",
+      repo: "https://github.com/itshady/intellectus2-0",
+      bulletpoints: [
+        "Founded and championed this app used by students to support each other academically when working online",
+        "Developed a clean, creative interface with HTML/CSS/JS/Bootstrap that shows students a library of notes",
+        "Securely hosted an Apache web-app and a Discourse container behind NGINX on digital ocean using Docker Compose",
+      ],
+    },
+  ]
+}
+
+// Biomedical Projects SECTION
+const biomedicalprojects = {
+  show: true,
+  heading: "Biomedical Projects",
+  data: [
+    {
+      title: 'Slacker, DeltaHacks IX Winner',
+      img: require('../assets/img/projects/slackerchore.png'),
+      link: "https://nova-attic-ec5.notion.site/Slacker-Chores-f815d8e00c324d629775a9e773c45f9f",
+      repo: "https://github.com/albertlai431/slacker-chore",
+      bulletpoints: [
+        "Created a web application in 24 hours using React and Firebase to randomly assign chores to roommates",
+        "Implemented Google authentication so users can login and invite their friends to a \"household\" via email",
+        "Won Best Productivity App in hackathon (1st out of 60 total submissions)",
+      ],
+    },
+    {
+      title: 'Conway\'s Game of Life, N Player Game?',
+      img: require('../assets/img/projects/conways.png'),
+      link: "https://itshady.github.io/gameoflife/",
+      repo: "https://github.com/itshady/gameoflife",
+      bulletpoints: [
+        "Built a complete implementation of Conway’s Game of Life with a variety of enhanced features",
+        "Chose a simple problem in order to concentrate on code quality, OOP, testing strategies, UI frameworks",
+        "Implemented the UI layer in vanilla JS and React to understand the purpose of modern frameworks",
       ],
     },
   ]
@@ -98,46 +172,6 @@ const leadership = {
       img: require("../assets/img/leadership/fsae_2.jpeg"), 
       label: "FSAE Formula Electric 2023", 
       paragraph: "Michigan International Speedway" 
-    },
-    { 
-      img: require("../assets/img/leadership/fsae_3.jpg"), 
-      label: "FSAE Formula Electric 2023", 
-      paragraph: "Michigan International Speedway" 
-    },
-    { 
-      img: require("../assets/img/leadership/cspanel_1.jpg"), 
-      label: "Computer Science Panel 2022", 
-      paragraph: "J. Clakre Richardson Collegiate" 
-    },
-    { 
-      img: require("../assets/img/leadership/cspanel_2.jpg"), 
-      label: "Computer Science Panel 2022", 
-      paragraph: "J. Clarke Richardson Collegiate" 
-    },
-    { 
-      img: require("../assets/img/leadership/ldc.jpg"), 
-      label: "McMaster Leadership Development Conference 2023", 
-      paragraph: "CIBC Hall" 
-    },
-    { 
-      img: require("../assets/img/leadership/msftambassador.jpg"), 
-      label: "Microsoft Student Ambassador Workshop 2023", 
-      paragraph: "J. Clarke Richardson Collegiate" 
-    },
-    { 
-      img: require("../assets/img/leadership/sumobots.jpg"), 
-      label: "Ontario Tech University Sumobot Competition 2019", 
-      paragraph: "Ontario Tech University" 
-    },
-    { 
-      img: require("../assets/img/leadership/frc6110.jpg"), 
-      label: "FIRST Robotics Competition 2020", 
-      paragraph: "Ontario Tech University" 
-    },
-    { 
-      img: require("../assets/img/leadership/frc5076.png"), 
-      label: "FIRST Robotics Competition 2019", 
-      paragraph: "J. Clarke Richardson Collegiate" 
     },
   ],
   // imageSize: {
@@ -193,25 +227,64 @@ const getInTouch = {
 
 const experiences = {
   show: true,
+  id: "experience",
   heading: "Work Experience",
   data: [
     {
       role: 'Teaching Assistant',
+      company: "McMaster University",
       // team: "IBEHS 1p10, SFWRENG 2da4, COMPSCI 1md3",
       companylogo: require('../assets/img/mcmaster.png'),
       date: 'September 2023 – Present',
     },
     {
       role: 'Software Developer Intern',// Here Add Company Name
+      company: "Shopify",
       // team: "Team: Deploys",
       companylogo: require('../assets/img/shopify.png'),
       date: 'May 2023 – August 2023',
     },
     {
       role: 'Backend Developer Intern',
+      company: "Shopify",
       // team: "Mobile Tooling",
       companylogo: require('../assets/img/shopify.png'),
       date: 'May 2022 – August 2022',
+    },
+  ]
+}
+
+const extracurriculars = {
+  show: true,
+  id: "extracurriculars",
+  heading: "Extracurriculars",
+  data: [
+    {
+      role: 'Software Team Lead',
+      team: "MAC Formula Electric",
+      customWidth: "75%",
+      company: "MAC Formula Electric",
+      link: "https://macformularacing.com/",
+      companylogo: require('../assets/img/formulaelectric.png'),
+      date: 'September 2022 – Present',
+    },
+    {
+      role: 'Software Developer',
+      team: "McMaster Engineering Society",
+      // customWidth: "75%",
+      company: "McMaster Engineering Society",
+      link: "https://www.macengsociety.ca/",
+      companylogo: require('../assets/img/mes.png'),
+      date: 'September 2023 – Present',
+    },
+    {
+      role: 'Physics Youtube Channel',
+      // team: "Youtube Channel",
+      // customWidth: "75%",
+      company: "Youtube",
+      link: "https://www.youtube.com/watch?v=gpg1KvaFjY4&list=PL4FYN04aVM6a_OId7Nmn6fbew673pcDew&ab_channel=HadyIbrahim",
+      companylogo: require('../assets/img/youtube.png'),
+      date: 'September 2022 – January 2023',
     },
   ]
 }
@@ -221,4 +294,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, projects };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, projects, extracurriculars, biomedicalprojects };

@@ -4,7 +4,7 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, repos, about, skills, experiences } from "../config/config.js";
+import { mainBody, repos, about, skills, experiences, extracurriculars } from "../config/config.js";
 import { NavLink } from "./home/migration";
 
 const Navigation = React.forwardRef((props, ref) => {
@@ -68,9 +68,16 @@ const Navigation = React.forwardRef((props, ref) => {
           </NavLink>
           {experiences.show && (
             <NavLink
-              href={process.env.PUBLIC_URL + "/#experience"}
+              href={process.env.PUBLIC_URL + `/#${experiences.id}`}
             >
               Work Experience
+            </NavLink>
+          )}
+          {extracurriculars.show && (
+            <NavLink
+              href={process.env.PUBLIC_URL + `/#${extracurriculars.id}`}
+            >
+              Extracurriculars
             </NavLink>
           )}
           {repos.show && (

@@ -19,7 +19,7 @@ const API = "https://api.github.com";
 // const gitHubQuery = "/repos?sort=updated&direction=desc";
 // const specficQuerry = "https://api.github.com/repos/hashirshoaeb/";
 
-const Project = ({ heading, username, length, specfic, calendar, projects }) => {
+const Project = ({ heading, username, length, specfic, calendar, projects, biomedicalprojects }) => {
   const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
   const specficReposAPI = `${API}/repos/${username}`;
   const dummyProjectsArr = new Array(length + specfic.length).fill(
@@ -62,13 +62,20 @@ const Project = ({ heading, username, length, specfic, calendar, projects }) => 
       <Container className="">
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
         <h3 className="display-6 pb-5 text-center">{projects.heading}</h3>
-        <Row>
+        <Row className="justify-content-center">
           {projects.data.length
             && projects.data.map((project, index) => (
             <PersonalProjectCard data={project}></PersonalProjectCard>
           ))}
         </Row>
-        <h3 className="display-6 pb-5 text-center">Github Projects</h3>
+        <h3 className="display-6 pb-5 text-center">{biomedicalprojects.heading}</h3>
+        <Row className="justify-content-center">
+          {biomedicalprojects.data.length
+            && biomedicalprojects.data.map((project, index) => (
+            <PersonalProjectCard data={project}></PersonalProjectCard>
+          ))}
+        </Row>
+        <h3 className="display-6 pb-5 text-center">Recent Github Projects</h3>
         {calendar && (
           <Row className="justify-content-center pb-5">
             <GitHubCalendar username="itshady" />

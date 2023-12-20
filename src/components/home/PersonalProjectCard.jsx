@@ -5,7 +5,8 @@ const PersonalProjectCard = ({ data }) => {
   return (
     <Col lg="4">
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
-        <Card.Body>
+        <Card.Body className="d-flex flex-column" >
+         {/* style={{ height: '750px' }} */}
           <Card.Title as="h5">{data.title}</Card.Title>
           <Card.Img className="rounded mx-auto d-block" src={data.img} resizeImage='contain' style={{ maxHeight: '35vh', width: 'auto', maxWidth: '100%' }} />
           <br></br>
@@ -16,11 +17,11 @@ const PersonalProjectCard = ({ data }) => {
                 ))}
               </ul>
           </Card.Text>
-          <p className="lead text-center my-0">
-            <a href={data.repo} target=" _blank" className="lead text-center btn btn-outline-dark btn mx-2">
+          <p className="lead text-center mt-auto">
+            {data.repo && (<a href={data.repo} target=" _blank" className="lead text-center btn btn-outline-dark btn mx-2">
               <i className="fab fa-github" /> Repo
-            </a>
-            <a
+            </a>)}
+            {data.link && (<a
               className="lead text-center btn btn-outline-dark btn mx-2"
               href={data.link}
               target="_blank"
@@ -29,7 +30,7 @@ const PersonalProjectCard = ({ data }) => {
               aria-label="Report"
             >
               Learn More
-            </a>
+            </a>)}
           </p>
           <div className="d-grid gap-2 d-md-block"></div>
         </Card.Body>
