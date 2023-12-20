@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe927caf.css",
+    "main.js": "/static/js/main.dc2cfc95.js",
+    "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
+    "static/media/fsae_2.jpeg": "/static/media/fsae_2.343cdf60e12c1e5c6a4d.jpeg",
+    "static/media/fsae_1.JPG": "/static/media/fsae_1.53e27f710ddc88f83592.JPG",
+    "static/media/islandgenerator.png": "/static/media/islandgenerator.1a4cffac6956b2431fdb.png",
+    "static/media/hipimplant.png": "/static/media/hipimplant.c813f072e88e90a1e930.png",
+    "static/media/intellectus.png": "/static/media/intellectus.f25323cff4d588a4ee2b.png",
+    "static/media/wcsspeereval.png": "/static/media/wcsspeereval.a422c0208f40f0654029.png",
+    "static/media/resume.pdf": "/static/media/resume.f972e7b58c3daae57c06.pdf",
+    "static/media/hadyibrahim.jpg": "/static/media/hadyibrahim.6aeed5742790712574b7.jpg",
+    "static/media/slackerchore.png": "/static/media/slackerchore.b876e27be453856935a3.png",
+    "static/media/mes.png": "/static/media/mes.6623cad5c80d58be5432.png",
+    "static/media/mcmaster.png": "/static/media/mcmaster.66e76b3058034d5fd5ed.png",
+    "static/media/2p03c.png": "/static/media/2p03c.0ade1dd4ecbc9628ca35.png",
+    "static/media/conways.png": "/static/media/conways.fe544928d71dd0f80ab7.png",
+    "static/media/shopify.png": "/static/media/shopify.1b8e0b853bb99d2f263e.png",
+    "static/media/formulaelectric.png": "/static/media/formulaelectric.714bead5770c626710a3.png",
+    "static/media/youtube.png": "/static/media/youtube.2d2e0798d1564f6098f1.png",
+    "index.html": "/index.html",
+    "main.fe927caf.css.map": "/static/css/main.fe927caf.css.map",
+    "main.dc2cfc95.js.map": "/static/js/main.dc2cfc95.js.map",
+    "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe927caf.css",
+    "static/js/main.dc2cfc95.js"
+  ]
+}
