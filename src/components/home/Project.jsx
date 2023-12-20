@@ -75,7 +75,7 @@ const Project = ({ heading, username, length, specfic, calendar, projects, biome
             <PersonalProjectCard data={project}></PersonalProjectCard>
           ))}
         </Row>
-        <h3 className="display-6 pb-5 text-center">Recent Github Projects</h3>
+        <h3 className="display-6 pb-5 text-center" id="github">Recent Github Projects</h3>
         {calendar && (
           <Row className="justify-content-center pb-5">
             <GitHubCalendar username="itshady" />
