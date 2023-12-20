@@ -132,25 +132,34 @@ const biomedicalprojects = {
   heading: "Biomedical Projects",
   data: [
     {
-      title: 'Slacker, DeltaHacks IX Winner',
-      img: require('../assets/img/projects/slackerchore.png'),
-      link: "https://nova-attic-ec5.notion.site/Slacker-Chores-f815d8e00c324d629775a9e773c45f9f",
-      repo: "https://github.com/albertlai431/slacker-chore",
+      title: 'A Breath of Fresh Air',
+      img: require('../assets/img/projects/2p03c.png'),
+      link: "https://drive.google.com/file/d/1fS0wRi-IYZdUhkh5s4fm8vFhFBxedgZk/view",
+      // repo: "",
       bulletpoints: [
-        "Created a web application in 24 hours using React and Firebase to randomly assign chores to roommates",
-        "Implemented Google authentication so users can login and invite their friends to a \"household\" via email",
-        "Won Best Productivity App in hackathon (1st out of 60 total submissions)",
+        "Selected to present our findings at the McMaster iBioMed Showcase",
+        "Developed and analyzed a Mathematical Simbiology model for a novel lung cancer treatment using synthetic biology approaches",
+        "Investigated cell-to-cell communication via quorum sensing pathways for localized drug release",
       ],
     },
+    // {
+    //   title: 'Genetic Analysis of R',
+    //   img: require('../assets/img/projects/rlogo.png'),
+    //   // link: "https://itshady.github.io/gameoflife/",
+    //   // repo: "https://github.com/itshady/gameoflife",
+    //   bulletpoints: [
+    //     "Developed a modular program in R to determine global differential gene expression between ovarian cancer cell lines",
+    //   ],
+    // },
     {
-      title: 'Conway\'s Game of Life, N Player Game?',
-      img: require('../assets/img/projects/conways.png'),
-      link: "https://itshady.github.io/gameoflife/",
-      repo: "https://github.com/itshady/gameoflife",
+      title: 'Hips Don\'t Lie',
+      img: require('../assets/img/projects/hipimplant.png'),
+      link: "https://nova-attic-ec5.notion.site/Project-2-Full-Breakdown-3eebcadee85e4a42852a0ba42baceed2?pvs=4",
+      // repo: "https://github.com/itshady/gameoflife",
       bulletpoints: [
-        "Built a complete implementation of Conway’s Game of Life with a variety of enhanced features",
-        "Chose a simple problem in order to concentrate on code quality, OOP, testing strategies, UI frameworks",
-        "Implemented the UI layer in vanilla JS and React to understand the purpose of modern frameworks",
+        "Brainstormed biocompatible materials for the femoral stem and plastic liner that reduce polyethylene debris and promote bone regrowth",
+        "Designed the hip implant and sketched the dimensions",
+        "3D modelled and printed the hip implant",
       ],
     },
   ]
