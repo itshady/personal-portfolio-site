@@ -49,7 +49,7 @@ const about = {
   In addition to my professional experiences, I'm actively involved in extracurricular activities. Notably, I've played a pivotal role as a member of McMaster's Formula Electric Software and Embedded Systems team advancing from a team member to leading a team of 15 dedicated individuals responsible for all high and low-level software components of a 1/4 scale electric Formula 1-style race car. In my current role, I am at the forefront of leading the design of a hardware-in-the-loop (HIL) tester. This cutting-edge project focuses on simulating the car on a test bench, facilitating data logging during drive testing, and enabling the team to replay the run via simulation. Additionally, my contributions include the development of an embedded C library for a Serial Peripheral Interface (SPI) on STM32 microcontroller ARM chips, an IMU Driver interfacing with the SPI library for parsing acceleration data, a Controller Area Network Database (CAN DBC) parser and code auto-generator, and a library for the car's LV Controller. Through this journey, I've gained not just technical expertise but also a profound understanding of effective teamwork and problem-solving in a real-world engineering setting.
   
   Armed with a versatile skill set, boundless curiosity, and a steadfast commitment to engineering excellence, I'm enthusiastic about continuing my journey, striving to create a significant impact on the world through innovative technology and engineering solutions.`,
-  resume: "https://drive.google.com/file/d/1JXLAKTW1MVO1XMSxV5Oy1MRn4vbLJjOC/view?usp=sharing",
+  // resume: "https://drive.google.com/file/d/1JXLAKTW1MVO1XMSxV5Oy1MRn4vbLJjOC/view?usp=sharing",
   resume: require("../config/resume.pdf"),
 };
 
