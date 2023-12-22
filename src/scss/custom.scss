@@ -3,3 +3,20 @@
 @import "./index";
 @import "./stars";
 @import "./typography";
+
+@media (max-width: 992px) {
+  .aboutme-swap {
+    flex-direction: column-reverse;
+  }
+
+  .aboutme-dropwhitespace {
+    margin-top: 1rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .aboutme-icon {
+    width: 300px;
+    height: 300px;
+  }
+}

@@ -36,11 +36,11 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
 
   return (
     <Jumbotron id="aboutme" className="m-0">
-      <div className="container row">
-        <div className="col-5 d-none d-lg-block align-self-center">
+      <div className="container row aboutme-swap">
+        <div className="col-5 align-self-center d-flex justify-content-center aboutme-dropwhitespace">
           {showPic && (
             <img
-              className="border border-secondary rounded-circle"
+              className="border border-secondary rounded-circle aboutme-icon"
               src={profilePicUrl}
               alt="profilepicture"
               width={imgSize}
@@ -67,10 +67,10 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           )}
         </div>
       </div>
+      {/* <br/>
       <br/>
-      <br/>
-      <br/>
-      <div className="container row">
+      <br/> */}
+      <div className="container row mt-5 aboutme-dropwhitespace">
         <p className="lead text-center" style={{ whiteSpace: 'pre-line' }}>{about.extraMessage}</p>
       </div>
     </Jumbotron>
