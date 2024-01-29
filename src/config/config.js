@@ -291,6 +291,15 @@ const extracurriculars = {
       date: 'September 2023 – Present',
     },
     {
+      role: 'Inpatient Pediatric Volunteer',
+      team: "McMaster Children's Hospital",
+      customWidth: "100%",
+      company: "McMaster Children's Hospital",
+      link: "https://www.hamiltonhealthsciences.ca/mcmaster-childrens-hospital/",
+      companylogo: require('../assets/img/mcmaster_children_hospital.png'),
+      date: 'January 2024 – Present',
+    },
+    {
       role: 'Physics Youtube Channel',
       // team: "Youtube Channel",
       // customWidth: "75%",
