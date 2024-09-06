@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d6bea431-cae5-447f-99b7-07bf2807fd17/deploy-status)](https://app.netlify.com/sites/animated-cactus-9508a6/deploys)
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
