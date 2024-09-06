@@ -41,7 +41,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../config/hadyibrahim.jpg"),
   imageSize: 375,
-  message: `I'm Hady Ibrahim, a 3rd year software and biomedical engineering student at McMaster University in Canada. I'm incredibly passionate about applying my engineering skills to solve real-world problems and make a positive impact on people's lives. I believe in crafting code that is not only functional but, more importantly, prioritizes maintainability and ease of extensibility. My ultimate goal is to harness my passion for continuous learning to drive innovation in the field of engineering.`,
+  message: `I'm Hady Ibrahim, a 4th year software and biomedical engineering student at McMaster University in Canada. I'm incredibly passionate about applying my engineering skills to solve real-world problems and make a positive impact on people's lives. I believe in crafting code that is not only functional but, more importantly, prioritizes maintainability and ease of extensibility. My ultimate goal is to harness my passion for continuous learning to drive innovation in the industry where software engineering and health collide.`,
   extraMessage: `My professional journey has been a dynamic exploration, shaped by a diverse array of experiences that have significantly contributed to my growth. One of the standout chapters was my time at Shopify with the Mobile Tooling Team where I led a transformative full-stack project that introduced a highly-utilized feature to Shopify's mobile infrastructure deployment system, benefiting all Shopify mobile developers. Beyond my main project, I actively engaged in a book club focused on refining code design principles, delving into "99 Bottles of OOP" to enhance my understanding of object-oriented programming. This experience broadened my perspective on the importance of good code design and programming habits, enriching my ability to produce maintainable code. Simultaneously, as a strong UI/UX asset on the team, I played a pivotal role in initiating a forced UI migration of our team's product. This journey not only provided me with invaluable insights into industry workings but also improved my technical abilities at an exponential rate whilst emphasizing the importance of coding for the long-term.
 
   The following summer, I transitioned to the Deploys team, embracing a new challenge. I assumed leadership of a three-developer project dedicated to automating the enforcement of action item completion. This initiative was a crucial step toward enhancing service reliability company-wide, yielded a remarkable 91% reduction in overdue tasks within the initial month of implementation. I not only announced the project to a vast audience of 3,000+ engineers on Workplace but also presented it to a focused group of 50 individuals within my organization. The highlight of this experience extended beyond the immediate success metrics, embracing a comprehensive understanding of the full product lifecycle. This encompassed delving into product requirements, meticulous documentation, drawing up success criteria, and evaluating various solutions — an enriching process that added depth to my professional growth.
@@ -87,6 +87,7 @@ const projects = {
     {
       title: 'Conway\'s Game of Life, N Player Game?',
       img: require('../assets/img/projects/conways.png'),
+      extraDesc: 'Try me',
       link: "https://itshady.github.io/gameoflife/",
       repo: "https://github.com/itshady/gameoflife",
       bulletpoints: [
@@ -98,6 +99,7 @@ const projects = {
     {
       title: 'Island Mesh Generator',
       img: require('../assets/img/projects/islandgenerator.png'),
+      extraDesc: 'Watch me',
       link: "https://github.com/itshady/Island-Generator#video-explanation-of-the-final-product",
       repo: "https://github.com/itshady/Island-Generator",
       bulletpoints: [
@@ -135,6 +137,17 @@ const biomedicalprojects = {
   show: true,
   heading: "Biomedical Projects",
   data: [
+    {
+      title: 'Retina Scanner',
+      img: require('../assets/img/projects/RetinaScanner.png'),
+      link: "https://nova-attic-ec5.notion.site/Retina-Scanner-9975db78381a4c4da096effdd600722e?pvs=4",
+      repo: "https://github.com/itshady/retina-scanner",
+      bulletpoints: [
+        "Developed and trained a machine learning model to detect the severity of a person’s diabetic retinopathy",
+        "ML model had 74% accuracy and could differentiate between 3 severity categories",
+        "Created a mobile app to make this prescreening technology accessible in locations where clinicians are sparse",
+      ],
+    },
     {
       title: 'A Breath of Fresh Air, Showcase Winner',
       img: require('../assets/img/projects/2p03c.png'),
@@ -176,16 +189,16 @@ const leadership = {
   message:
     'My journey has contained many leadership opportunities, each contributing to my growth as both a leader and a team player. Highlights of these experiences can be seen below:<br><br>• Team Lead for MAC Formula Electric’s Suspension & Steering sub-team, leading a team of 12 members in designing, justifying, and manufacturing components for a 1/4 scale formula-style race car<br>• Microsoft Student Ambassador, organizing an event for 40 high school students to teach them how to create and host websites using various GitHub tools<br>• Panelist at McMaster\'s Leadership Development Conference and my high school\'s Computer Science Panel, sharing insights and expertise<br>• Founded and led my high school\'s inaugural team in a sumobot competition at Ontario Tech University, earning the "Best New Entry" award for our innovative use of the gyro sensor<br>• Co-captain and Head Driver of FRC Team 6110, guiding a team of 40 members after transferring due to funding cuts<br>• Head Driver and Mechanical/Electrical Lead of FIRST Robotics Team 5076, developing leadership and technical skills in a robotics context',
   images: [
-    { 
-      img: require("../assets/img/leadership/fsae_1.JPG"), 
-      label: "FSAE Formula Electric 2023", 
-      paragraph: "Michigan International Speedway" 
-    },
-    { 
-      img: require("../assets/img/leadership/fsae_2.jpeg"), 
-      label: "FSAE Formula Electric 2023", 
-      paragraph: "Michigan International Speedway" 
-    },
+    // { 
+    //   img: require("../assets/img/leadership/fsae_1.JPG"), 
+    //   label: "FSAE Formula Electric 2023", 
+    //   paragraph: "Michigan International Speedway" 
+    // },
+    // { 
+    //   img: require("../assets/img/leadership/fsae_2.jpeg"), 
+    //   label: "FSAE Formula Electric 2023", 
+    //   paragraph: "Michigan International Speedway" 
+    // },
   ],
   // imageSize: {
   //   width:"615",
@@ -199,13 +212,15 @@ const skills = {
   heading: "Skills",
   codingSkills: [
     { name: "Python", value: 90 },
-    { name: "C / C++", value: 55 },
-    { name: "Go", value: 65 },
+    { name: "C / C++", value: 65 },
+    { name: "Go", value: 70 },
     { name: "Java", value: 90 },
+    { name: "React Native", value: 75 },
     { name: "JavaScript / TypeScript / React", value: 80 },
     { name: "HTML / CSS", value: 75 },
     { name: "SQL", value: 75 },
     { name: "Git", value: 85 },
+    { name: "Swift", value: 90 },
   ],
   technicalSkills: [
     { name: "MatLab", value:65 },
@@ -218,7 +233,7 @@ const skills = {
     { name: "Teams / Slack", value: 90 },
   ],
   softSkills: [
-    { name: "Communication", value: 85 },
+    { name: "Communication", value: 90 },
     { name: "Leadership", value: 95 },
     { name: "Teamwork", value: 90 },
     { name: "Creativity", value: 95 },
@@ -244,14 +259,15 @@ const experiences = {
   heading: "Work Experience",
   data: [
     {
-      role: 'Teaching Assistant',
-      company: "McMaster University",
-      // team: "IBEHS 1p10, SFWRENG 2da4, COMPSCI 1md3",
-      companylogo: require('../assets/img/mcmaster.png'),
-      date: 'September 2023 – Present',
+      role: 'Software Engineer Intern',
+      company: "Apple",
+      // team: "Team: Deploys",
+      customWidth: "40%",
+      companylogo: require('../assets/img/words-apple-logo.png'),
+      date: 'May 2024 – August 2024',
     },
     {
-      role: 'Software Developer Intern',// Here Add Company Name
+      role: 'Software Developer Intern',
       company: "Shopify",
       // team: "Team: Deploys",
       companylogo: require('../assets/img/shopify.png'),
@@ -264,6 +280,13 @@ const experiences = {
       companylogo: require('../assets/img/shopify.png'),
       date: 'May 2022 – August 2022',
     },
+    {
+      role: 'Teaching Assistant',
+      company: "McMaster University",
+      // team: "IBEHS 1p10, SFWRENG 2da4, COMPSCI 1md3",
+      companylogo: require('../assets/img/mcmaster-logo.jpeg'),
+      date: 'September 2023 – Present',
+    },
   ]
 }
 
@@ -273,7 +296,7 @@ const extracurriculars = {
   heading: "Extracurriculars",
   data: [
     {
-      role: 'Software Team Lead',
+      role: 'Software Team Lead & LV Electronics Member',
       team: "MAC Formula Electric",
       customWidth: "75%",
       company: "MAC Formula Electric",
@@ -288,7 +311,7 @@ const extracurriculars = {
       company: "McMaster Engineering Society",
       link: "https://www.macengsociety.ca/",
       companylogo: require('../assets/img/mes.png'),
-      date: 'September 2023 – Present',
+      date: 'April 2023 – May 2024',
     },
     {
       role: 'Inpatient Pediatric Volunteer',

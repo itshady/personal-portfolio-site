@@ -29,7 +29,7 @@ const PersonalProjectCard = ({ data }) => {
               role="button"
               aria-label="Report"
             >
-              Learn More
+              {data.extraDesc ? data.extraDesc : "Learn More"}
             </a>)}
           </p>
           <div className="d-grid gap-2 d-md-block"></div>
