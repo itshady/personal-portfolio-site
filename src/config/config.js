@@ -74,6 +74,18 @@ const projects = {
   heading: "Personal Projects",
   data: [
     {
+      title: 'Keysight - ML, Hardware',
+      img: require('../assets/img/projects/keysight.png'),
+      link: "https://devpost.com/software/keysight",
+      repo: "https://github.com/hackdays-projects/keysight",
+      bulletpoints: [
+        "Developed Keysight, a security system with facial recognition (OpenCV) and voice detection (Google Speech-to-Text API) to identify users and alert for abnormal activity.",
+        "Implemented gRPC calls to control a physical locking mechanism via a Raspberry Pi and servo motors.",
+        "Integrated full-stack web app using React, Firebase, and Chakra UI for real-time notifications and user management.",
+        "Resolved hardware and software challenges, optimizing Raspberry Pi performance and improving face/voice recognition accuracy."
+      ],
+    },
+    {
       title: 'Slacker, DeltaHacks IX Winner',
       img: require('../assets/img/projects/slackerchore.png'),
       link: "https://nova-attic-ec5.notion.site/Slacker-Chores-f815d8e00c324d629775a9e773c45f9f",
@@ -82,18 +94,6 @@ const projects = {
         "Created a web application in 24 hours using React and Firebase to randomly assign chores to roommates",
         "Implemented Google authentication so users can login and invite their friends to a \"household\" via email",
         "Won Best Productivity App in hackathon (1st out of 60 total submissions)",
-      ],
-    },
-    {
-      title: 'Conway\'s Game of Life, N Player Game?',
-      img: require('../assets/img/projects/conways.png'),
-      extraDesc: 'Try me',
-      link: "https://itshady.github.io/gameoflife/",
-      repo: "https://github.com/itshady/gameoflife",
-      bulletpoints: [
-        "Built a complete implementation of Conway’s Game of Life with a variety of enhanced features",
-        "Chose a simple problem in order to concentrate on code quality, OOP, testing strategies, UI frameworks",
-        "Implemented the UI layer in vanilla JS and React to understand the purpose of modern frameworks",
       ],
     },
     {
@@ -106,6 +106,18 @@ const projects = {
         "Generate and visualize 2D meshes, further enriched with island generation and interconnected cities",
         "Focused on design decisions that conformed to SOLID principles",
         "Implemented a pathfinder service that employs graph algorithms (Dijkstra’s and Bellman Ford) for optimal path calculation between cities",
+      ],
+    },
+    {
+      title: 'Conway\'s Game of Life, N Player Game?',
+      img: require('../assets/img/projects/conways.png'),
+      extraDesc: 'Try me',
+      link: "https://itshady.github.io/gameoflife/",
+      repo: "https://github.com/itshady/gameoflife",
+      bulletpoints: [
+        "Built a complete implementation of Conway’s Game of Life with a variety of enhanced features",
+        "Chose a simple problem in order to concentrate on code quality, OOP, testing strategies, UI frameworks",
+        "Implemented the UI layer in vanilla JS and React to understand the purpose of modern frameworks",
       ],
     },
     {
@@ -127,6 +139,29 @@ const projects = {
         "Founded and championed this app used by students to support each other academically when working online",
         "Developed a clean, creative interface with HTML/CSS/JS/Bootstrap that shows students a library of notes",
         "Securely hosted an Apache web-app and a Discourse container behind NGINX on digital ocean using Docker Compose",
+      ],
+    },
+    {
+      title: 'Netflix Clone',
+      img: require('../assets/img/projects/netflix.png'),
+      link: "https://netflix-clone-d2169.web.app/",
+      extraDesc: 'Try me',
+      bulletpoints: [
+        "Developed a front-end web-app that replicates the UI/UX experience of Netflix",
+        "Used TMDB API to retrieve shows/movies and deployed the app using Google Firebase",
+        "Did this to learn and practice web development with React.",
+      ],
+    },
+    {
+      title: 'Instagram Clone',
+      img: require('../assets/img/projects/instagram.png'),
+      link: "https://instagram-clone-aed2e.web.app/",
+      extraDesc: 'Try me',
+      bulletpoints: [
+        "Developed a full-stack web-app that has the same functionality and features as Instagram",
+        "Used a NoSQL database, ensuring scalability as posts increase, and Firebase to deploy the app",
+        "Sign up using any email, username and password to test out the app",
+        "Did this to learn and practice web development with React.",
       ],
     },
   ]
