@@ -294,6 +294,18 @@ const experiences = {
   heading: "Work Experience",
   data: [
     {
+      role: 'Machine Learning Engineering Intern',
+      company: "Apple",
+      companylogo: require('../assets/img/shopify.png'),
+      date: 'May 2025 – August 2025',
+    },
+    {
+      role: 'Machine Learning Research Assistant',
+      company: "McMaster University",
+      companylogo: require('../assets/img/mcmaster-logo.jpeg'),
+      date: 'September 2023 – Present',
+    },
+    {
       role: 'Software Engineer Intern',
       company: "Apple",
       // team: "Team: Deploys",
@@ -364,7 +376,7 @@ const extracurriculars = {
       company: "Youtube",
       link: "https://www.youtube.com/watch?v=gpg1KvaFjY4&list=PL4FYN04aVM6a_OId7Nmn6fbew673pcDew&ab_channel=HadyIbrahim",
       companylogo: require('../assets/img/youtube.png'),
-      date: 'September 2022 – January 2023',
+      date: 'September 2021 – January 2022',
     },
   ]
 }
