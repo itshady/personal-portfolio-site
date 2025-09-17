@@ -74,10 +74,24 @@ const projects = {
   heading: "Personal Projects",
   data: [
     {
+      title: 'The Hatchery - Hackathon Winner',
+      img: require('../assets/img/projects/thehatchery.png'),
+      link: 'https://devpost.com/software/the-hatchery',
+      repo: 'https://github.com/itshady/hatchery',
+      extraDesc: 'Demo',
+      bulletpoints: [
+        "Built a multi-agent 'virtual incubator' where a CEO delegates to Marketing and Coding directors; CrewAI + LangChain orchestrate tasks to turn one idea into campaigns and working web/app prototypes.",
+        "Shipped a real-time, Sims-style 3D GUI (React Three Fiber) with Socket.IO streaming so users watch agents work, inspect artifacts, and give feedback that loops back into the plan.",
+        // "Stabilized agent behavior with standardized prompts, retries, guardrails, and lightweight regression checks—reducing variability and speeding iteration.",
+        "Won at DeltaHacks (500+ participants; $3,000 prize pool)."
+      ],
+    },
+    {
       title: 'Keysight - ML, Hardware',
       img: require('../assets/img/projects/keysight.png'),
       link: "https://devpost.com/software/keysight",
       repo: "https://github.com/hackdays-projects/keysight",
+      extraDesc: 'Demo',
       bulletpoints: [
         "Developed Keysight, a security system with facial recognition (OpenCV) and voice detection (Google Speech-to-Text API) to identify users and alert for abnormal activity.",
         "Implemented gRPC calls to control a physical locking mechanism via a Raspberry Pi and servo motors.",
@@ -86,10 +100,11 @@ const projects = {
       ],
     },
     {
-      title: 'Slacker, DeltaHacks IX Winner',
+      title: 'Slacker - Hackathon Winner',
       img: require('../assets/img/projects/slackerchore.png'),
       link: "https://nova-attic-ec5.notion.site/Slacker-Chores-f815d8e00c324d629775a9e773c45f9f",
       repo: "https://github.com/albertlai431/slacker-chore",
+      extraDesc: 'Demo',
       bulletpoints: [
         "Created a web application in 24 hours using React and Firebase to randomly assign chores to roommates",
         "Implemented Google authentication so users can login and invite their friends to a \"household\" via email",
@@ -99,7 +114,7 @@ const projects = {
     {
       title: 'Island Mesh Generator',
       img: require('../assets/img/projects/islandgenerator.png'),
-      extraDesc: 'Watch me',
+      extraDesc: 'Demo',
       link: "https://github.com/itshady/Island-Generator#video-explanation-of-the-final-product",
       repo: "https://github.com/itshady/Island-Generator",
       bulletpoints: [
@@ -125,6 +140,7 @@ const projects = {
       img: require('../assets/img/projects/wcsspeereval.png'),
       link: "https://nova-attic-ec5.notion.site/WCSS-Peer-Evaluator-966d035f74694a8d8500d2bd6b8d71d8",
       repo: "https://github.com/itshady/WCSS-Peer-Eval",
+      extraDesc: 'Demo',
       bulletpoints: [
         "Used at West Carleton SS by over 1300 students in order to get valuable feedback from their peers",
         "Developed a UI/UX friendly interface that shows teachers their associated students and projects",
@@ -135,6 +151,7 @@ const projects = {
       img: require('../assets/img/projects/intellectus.png'),
       link: "https://nova-attic-ec5.notion.site/Intellectus-ca-53c6573802d1497d96ecd621032adf1c",
       repo: "https://github.com/itshady/intellectus2-0",
+      extraDesc: 'Demo',
       bulletpoints: [
         "Founded and championed this app used by students to support each other academically when working online",
         "Developed a clean, creative interface with HTML/CSS/JS/Bootstrap that shows students a library of notes",
